@@ -1,16 +1,15 @@
 <template>
-  <div id="app">
-    <Header />
-    <router-view></router-view>
+  <div id="home">
+  <h1>HOME</h1>
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
-    Header,
+ 
   
   }
 }
