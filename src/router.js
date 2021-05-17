@@ -27,7 +27,7 @@ const router = new Router ({
     {
         path:'/perfil/:userid',
         component: Perfil,
-        // props:true,
+        props:true,
         meta:{
             requiresAuth:true
         }
